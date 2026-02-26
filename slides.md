@@ -2,9 +2,28 @@
 marp: true
 theme: gradient
 paginate: true
+header: .NET lab
 ---
 
-# Marp
-Marp is a Markdown presentation ecosystem, powered by Marpit. It provides tools to create slide
-decks using Markdown, and export them to various formats.
+# 管理者向けGitHub Enterpriseの運用Tips紹介: 人にもAIにも優しいプラットフォームづくり
+
+yuriemori
+
 ---
+
+# お品書き
+- GitHub EnterpriseのあるあるQ&A
+- GitHub EnterpriseでのAgent/AIの管理
+
+---
+# Yurie Mori（森　友梨映）
+## Job: 
+- Software Solution Engineer@Microsoft Japan
+
+## Skills/Interests:
+- GitHub/Azure DevOps/Defender for Cloud/Azure PaaS
+- DevOps/DevSecOps/IaC/Platform Engineering
+
+---
+
+# Please follow me

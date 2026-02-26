@@ -12,6 +12,7 @@
 section {
   background-color: #ffffff;
   background-image: linear-gradient(to top right, #e1c2e1 5%, #b9d5d9 95%);
+  position: relative;
 }
 
 h1,
@@ -44,6 +45,20 @@ pre {
 section::after {
   font-size: 0.75em;
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  left: 1.2em;
+  bottom: 0.6em;
+  width: 3.2em;
+  height: 3.2em;
+  border-radius: 50%;
+  background-image: url('./choju-rabbit-amugiguity.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* the "center" keyword centers the image - may break, careful */
