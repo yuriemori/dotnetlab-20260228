@@ -27,3 +27,12 @@ yuriemori
 ---
 
 # Please follow me
+X（旧Twitter）とLinkedInで発信しています。ぜひフォローしてください！
+
+<img src=images/x-qrcode.png width="200" height="200">
+
+<img src=images/linkedin-qrcode.png width="200" height="200">
+
+---
+# GitHub EnterpriseのあるあるQ&A
+---
