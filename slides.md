@@ -33,6 +33,21 @@ X（旧Twitter）とLinkedInで発信しています。ぜひフォローして�
 
 <img src=images/linkedin-qrcode.png width="200" height="200">
 
+
+---
+# GitHub Well Architectedに学ぶガバナンスのプラクティス
+---
+# アンチパターン（抜粋）
+- 不必要なOrganizationの分割
+→　管理の煩雑化、ガバナンスの不整合、ナレッジのサイロ化に繋がる
+- ブランチ戦略を定義しない
+- 承認なしで変更がマージされる
+---
+# ベストプラクティス（抜粋）
+- ガバナンスの違いごとにOrganizationを分ける
+- rulesetを活用してブランチ,リポジトリに対してルールを適用する
+- ガバナンスに関する方針やポリシーはバージョン管理できる形でドキュメント化する
+- レイヤごとに適切な権限を設定する
 ---
 # GitHub EnterpriseのあるあるQ&A
 ---
@@ -140,20 +155,4 @@ X（旧Twitter）とLinkedInで発信しています。ぜひフォローして�
 ![center](images/ghe-eneterpriseapp.png)
 ---
 # GitHub Enterpriseにおけるコンテキストエンジニアリング
----
-# Context Engineering
-- AIシステムの周辺に包括的な情報環境を設計することに焦点を当てて、出力を生成する前ににAIエージェントがすべての関連する背景知識、メモリ、ツールにアクセスできるようにし、拡張ワークフロー全体を通じて情報を動的に管理
-- コードベース、ドキュメント、MCPサーバーによりAIエージェントがアクセスできるようにすることで、AIエージェントがより正確で関連性の高い応答を生成できるようにする。
-- GitHub EnterpriseのリポジトリやドキュメントをAIエージェントがアクセスできるようにすることで、AIエージェントがコードの変更点やドキュメントの内容を理解して、より適切な応答を生成できるようになる。
----
-# GitHub EnterpriseでのAgent/AIの管理
-## Enterprise層
-- AI Control: 
-Copilotの集中制御を行う。監査ログ、Aアクセスさせないデータの指定、使用可能なLLMやMSPサーバーの指定、使用可能な機能の制御
-
-## Organization層
-- Models
-- Content Exclusion
-- Custom Instuctions
-- agent.md
 ---
