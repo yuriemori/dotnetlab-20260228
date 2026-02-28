@@ -12,6 +12,7 @@ yuriemori
 ---
 
 # お品書き
+- GitHub Well Architected Frameworkに学ぶガバナンスのプラクティス
 - GitHub EnterpriseのあるあるQ&A
 - GitHub EnterpriseでのAgent/AIの管理
 
