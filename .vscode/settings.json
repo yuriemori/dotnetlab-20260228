@@ -1,5 +1,6 @@
 {
   "markdown.marp.themes": [
     "./gradient.css"
-  ]
+  ],
+  "markdown.marp.enableHtml": true
 }
